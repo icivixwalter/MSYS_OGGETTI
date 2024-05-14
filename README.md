@@ -1,6 +1,5 @@
-# MSYS_OGGETTI
-	@README.md
-		Progetto access di gestione degli oggetti
+@README.md
+
 
 
 
@@ -12,22 +11,3 @@
 
 
 
-
-# COMANDI GIT
-
-	git status
-	git add .
-	git commit "aggiornamento"
-
-
-
-
-	//REPOSITORY ROOT
-				
-		https://github.com/icivixwalter/MSYS_OGGETTI
-		
-		branch
-			main
-
-
-		

@@ -179,3 +179,17 @@ MSYS_REDME
 								   CON IL MENU  del codice selezioto ...
 
 								   
+
+
+
+   MENU
+   		Nota
+   			i menu del progetto mysys è composta da una tabella MENU DI DEFINIZIONE
+   			una tabella dei comandi e una tabella delle funzioni
+   				MSys_DF15_MENU   *** da costrurire
+   					codice ---> MSys_DF15
+   					collegata ai comandi della DF16
+
+   				MSys_DF16_COMANDI
+   					codice ---> MSys_DF16
+   				MSys_DF17_FUNZIONI *** da costruire

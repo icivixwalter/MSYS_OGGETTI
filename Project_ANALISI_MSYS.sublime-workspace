@@ -28,6 +28,27 @@
 	"buffers":
 	[
 		{
+			"contents": "Searching 72 files for \"@progetto@nullo\"\n\nC:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\MDB\\MSYS_N01_OGGETTI.mdb:\n    <binary>\n\n2 matches in 1 file\n\n\nSearching 73 files for \"@progetto@nullo\"\n\nC:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\ANALISI\\FORM\\Form_MSys_TUTTI_PROG_FrmM01_01_PROGETTI.cls:\n  113                          '//PRIMA CONTROLLO SE ESITE UN PROGETTTO SELEZIONATO A TRUE\n  114                          '//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//\n  115:                         '//@CONTROLLO@PROGETTO@NULLO_(se viene deselezionato tutto e non viene scelto nessun progetto rimane impostato su msys)\n  116                          '//@PROGETTO@NON@SELEZIONATO@_(se tutti i progetti sono False allora avviso di impostare un flag)\n  117                              \n  ...\n  166                                          Set DaoRs = Nothing\n  167                                          \n  168:                                         '//@PROGETTO@NULLO_(avviso che devi selezionare un progetto) _\n  169:                                             @ERRORE@PROGETTO@NULLO_(avviso che non hai impostato il progetto)\n  170                                          If Valore_b = False Then\n  171                                              '//@CONTROLLO@PROGETTO_(SE NON IMPOSTATO @AVVISO DI @IMPOSTAZIONE)\n\nC:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\MDB\\MSYS_N01_OGGETTI.mdb:\n    <binary>\n\n10 matches across 2 files\n\n\nSearching 73 files for \"@PROGETTO@NON@SELEZIONATO@\"\n\nC:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\ANALISI\\MSYS_README.MD:\n  112  \t\t\t\t\tNel caso che nessun progetto viene selezionato allora viene emesso un avviso di \n  113  \t\t\t\t\tprogetto nullo, vedi codice\n  114: \t\t\t\t\t\t@PROGETTO@NON@SELEZIONATO@ ...\n\nC:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\ANALISI\\FORM\\Form_MSys_TUTTI_PROG_FrmM01_01_PROGETTI.cls:\n  114                          '//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//\n  115                          '//@CONTROLLO@PROGETTO@NULLO_(se viene deselezionato tutto e non viene scelto nessun progetto rimane impostato su msys)\n  116:                         '//@PROGETTO@NON@SELEZIONATO@_(se tutti i progetti sono False allora avviso di impostare un flag)\n  117                              \n  118                              \n\nC:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\MDB\\MSYS_N01_OGGETTI.mdb:\n    <binary>\n\n3 matches across 3 files\n\n\nSearching 76 files for \"@2024_03_11_CREATO_INSERIMENTO_CODICI_PROGETTO_IN_TMP\"\n\nC:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\ANALISI\\MSYS_README.MD:\n  146  \n  147  \t\t\t\t\tB)\n  148: \t\t\t\t\t\t@2024_03_11_CREATO_INSERIMENTO_CODICI_PROGETTO_IN_TMP\n  149  \t\t\t\t\t\t\n  150  \t\t\t\t\t\tho creato anche la tabella tmp relativo a i PROGETTI tmp dove vengono salvati\n\nC:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\ANALISI\\FORM\\Form_MSys_TUTTI_PROG_FrmM01_01_PROGETTI.cls:\n  183                  '//---------------------------------------------------------------------------------//\n  184                  '//codice --->  @INSERTI@CODICI@PROGETTO@TMP_(inserisco i codici del progetto nella casella PROGETTO TMP)\n  185:                 '// @2024_03_11_CREATO_INSERIMENTO_CODICI_PROGETTO_IN_TMP\n  186                  \n  187                   '//prima cancello i dati nella tmp\n\n2 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 3592,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					28,
+					1,
+					"",
+					null,
+					"AQAAAO8NAAAAAAAACA4AAAAAAAAAAAAA",
+					"CQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJINAAAAAAAAkg0AAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
 			"contents": "MSYS_REDME\n\n\tPROGETTO_MSYS_REDME\n\t\t\tNote\n\t\t\t\til progetto MySys si riferisce al progetto relativo a tutti gli oggetti Access\n\t\t\t\tutili per gli altri progetti.\n\t\t\t\tIl progetto Msys si trova in questa path e file:\n\t\t\t\t\tc:\\CASA\\CDM\\GE_CDM\\MSYS\\MSYS_MDB\\MSYS_N01_TABELLE.mdb\n\t\t\t\t\t@PROGETTO@MSYS\n\n\n\t\t\tDB\n\t\t\t\tMSYS_N01_TABELLE.mdb\n\t\t\t\t\tsi trova in questa path:\n\t\t\t\tc:\\CASA\\CDM\\GE_CDM\\MSYS\\MSYS_MDB\\\n\n\n\n\t\t\tFORM MASTER\n\t\t\t\tMSys_FORM_M01_GESTIONE_OGGETTI_MSys\n\t\t\t\t\tQuesta è la form per la gestione di tutti gli oggetti msys e viene utilizzata\n\t\t\t\t\tper gli altri progetti.\n\t\t\t\t\tPermette di caricare i vari oggetti necessari al progetto in questione;\n\n\t\t\t\t\t\tPer tutti i dettagli fare riferimento a questo codice: @FORM@MASTER@MSYS\n\n\t\t\t\t\t\tAttenzione se cambi il nome alla form master questa procedura garantisce\n\t\t\t\t\t\til suo funzionamento:\n\t\t\t\t\t\t\t@cambio@denominazione@form@master_(se cambi denominazione alla form master viene utilizzata ugualmente)\n\n\t\t\t\t\t\tAttenzione \n\n\n\t\t\t\t\t\t'//@ERRORE@RECORD@VUOTO, se esiste il progetto da caricare, MA NON HA FORM DA IMPLEMENTARE allora il msg di errore _\n                                            + uscita dalla routine,\n                                        DoCmd.OpenQuery \"MSys_TUTTI_PROG_SELECT_Qry01_01_PROGETTI\", acViewNormal\n                                        \n\n\t\t\tGESTIONE_PROGETTO\n\t\t\t\tTODO: provo ad eliminare tutti gli oggetti senza filtro in db mdb esterno\n\n\t\t\t\t\n\n\t\t\t\tTODO\n\t\t\t\tsono da fare i seguenti miglioramenti per il progetto:\n\t\t\t\t\t1) Eliminare tutte le form  che non hanno il codice MSys_ perche appartengono \n\t\t\t\t\t\tagli altri progetti. \n\t\t\t\t\t\t\tDONE\n\t\t\t\t\t\t\t\t2023.02.11 FORM ELIMINATE = sono state eliminate tutte le form che \n\t\t\t\t\t\t\t\t\t\t\tnon appartegono al progetto Mys\n\n\t\t\t\t\t2) Eliminare tutte le QUERY  che non hanno il codice MSys_ perche appartengono \n\t\t\t\t\t\tagli altri progetti.\n\n\t\t\t\t\t\t\tDONE\n\t\t\t\t\t\t\t\t2023.02.11 QUERY ELIMINATE = sono state eliminate tutte le QUERY che \n\t\t\t\t\t\t\t\t\t\t\tnon appartegono al progetto Mys\n\n\t\t\t\t\t3) Eliminare tutti I MODULI  he non hanno il codice MSys_ perche appartengono \n\t\t\t\t\t\tagli altri progetti.\n\t\n\n\n\tFORM_CARICAMENTO_AUTOMATICO\n\t\tIl progetto FORM_M01_MASTER_base_(CaricaSottoform).mdb contiene la form MASTER per\n\t\til caricamento automatico delle sottoform in numero max 12\n\n\n\n\tFORM\n\t\tMSys_FORM_M01_}------------------------------------------------@\n\t\tMSys_FORM_M01_GESTIONE_OGGETTI_MSys\n\t\tAA_MSys_FORM_M01_GESTIONE_OGGETTI_MASTER\n\t\t\tNote\n\t\t\t\tform a caricamento automatico di 12 pagine\n\t\t\t\tLe due form sono le stesse solo la master dovrebbe essere quella che puo essere utilizzata\n\t\t\t\tper tutti i progetti, e quindi potrebbe rimanere mentre la GESTIONE_OGGETTI_Msys verrebbe\n\t\t\t\tcancellata appena finito la stesura del progetto.\n\n\n\n\n\t\t\t\t\t@form@caricamento@automatico_(La form @MASTER per caricare automaticamente @12@pagine)\n\n\n\n\t\t\tFUNZIONAMENTO\n\t\t\t\t01)FORM -> EVENTO @FORM@LOAD@PAGINE@TUTTE\n\t\t\t\t\tAll'apertura della form carico tutto le pagine del tab controll per un  max di 12\n\n\t\t\t\t\t@RESET@PAGINE_(sempre all'apertura vengono resettare le sottoform le pagine del tab controll)\n\n\t\t\t\t\t@ATTIVO@FUNZIONE@CARICA@PAGINE_(viene attivata la funzione che carica le pagine delle sottoform)\n\n\t\t\t\t\t@FUNZIONE@CARICA@PAGINE@TAB@CONTROLL_(eseguo un ciclo sulla tabella MSys_TUTTI_PROG per trovare il progetto selezionato a True da caricare)\n\n\n\t\t\t\t\t@FUNZIONE@CARICA@PAGINE@TAB@CONTROLL_(recupero i parametri CODICE PROGETTO TIPO OGGETTO NOME OGGETTO NOME PAGINA VIBILE e chiamo la funzione imposta le sottoform)\n\n\t\t\t\t\t@CHIAMO@LA@ROUTIN@IMPOSTA@LE@SOTTOFORM_(per impostare le sottoform e passo 4 parametri)\n\n\n\t\t\t\t\t@ROUTINE@IMPOSTA@LE@SINGOLE@SOTTOFORM_(con la ROUTINE imposta le sottoform MA attivo la classe ricerca oggetto nel db)\n\n\n\n\t\t\t\t\t@ROUTINE@IMPOSTA@LE@SINGOLE@SOTTOFORM_(ma prima controllo il Parametro Vible = True e poi attivo la classe di controllo esistenza sottoform, infine solo se la form esiste la carico nella pagina scelta)\n\n\n\n\n\t\t\t\t\t@faq@come@caricare_(Le@pagine delle 12 sottoform sono a @caricamento@automatico\n\t\t\t\t\t\t)\n\n\n\t\t\t\t02) @PROGETTO@NULLO\n\t\t\t\t\tNel caso che nessun progetto viene selezionato allora viene emesso un avviso di \n\t\t\t\t\tprogetto nullo, vedi codice\n\t\t\t\t\t\t@PROGETTO@NON@SELEZIONATO@ ...\n\n\n\t\t\t\t03) COMANDI O MENU\n\t\t\t\t\tNella form MASTER, i menu devono cambiare nel cambio del progetto.\n\t\t\t\t\tPer ottenere questo risultato occorre quindi:\n\t\t\t\t\ta) creare una tabella tmp dei comandi denominata \t\n\t\t\t\t\t\t\tMSys_DF01_COMANDI_TMP\n\t\t\t\t\t\tIn questa tabella devono essere salvati i comandi temporanei che attengono al progetto e poi caricati e visualizzati nella form master.\n\t\t\t\t\t\tPrima modifico la tabella originale e tmp con il codice progetto inserendo questo\n\t\t\t\t\t\tcampo.\n\t\t\t\t\t\t\tCOD_PROGETTO_s\n\t\t\t\t\t\tHO anche modificato le chiavi delle tabelle comandi e comandi tmp con questi due\n\t\t\t\t\t\tcampi:\n\t\t\t\t\t\t\tCOMANDO_s\n\t\t\t\t\t\t\tCOD_PROGETTO_s\n\t\t\t\t\t\t\tPROGETTO_s\n\n\t\t\t\t\t\t- Ho creato la query di RAGGRUPPAMENTO per visualizzare i comandi assegnati ai\n\t\t\t\t\t\t\tprogetti:\n\t\t\t\t\t\t\t\tMSys_DF01_COMANDI_Qry01_01_GROUP_TUTTI\n\t\t\t\t\t\t\t\tcodice: comandi\n\n\t\t\t\t\t\t- Ho creato la query di accodamento dei comandi tmp in base al codice progetto.\n\t\t\t\t\t\t\t\tcodice: comandi\n\t\t\t\t\t\t\t\n\n\n\t\t\t\t\tB)\n\t\t\t\t\t\t@2024_03_11_CREATO_INSERIMENTO_CODICI_PROGETTO_IN_TMP\n\n\t\t\t\t\t\tho creato anche la tabella tmp relativo a i PROGETTI tmp dove vengono salvati\n\t\t\t\t\t\tsolo \n\t\t\t\t\t\t\tMSys_TUTTI_PROG_TMP\n\n\t\t\t\t\t\tHo aggiunto e creato una query di accodamento del progetto scelto denominata\n\t\t\t\t\t\t\tMSys_TUTTI_PROG_INSERT_Qry01_01_PROGETTI_in_TMP\n\n\t\t\t\t\t\tquesta query di accodamento è un base per l'operazione di cancellazione del progetto nella tabella\n\t\t\t\t\t\ttmp ed il successivo accodamento nella tabella\n\t\t\t\t\t\t\tMSys_TUTTI_PROG_TMP\n\t\t\t\t\t\tdei 3 codice del progetto scelto e questo è un esempio:\n\t\t\t\t\t\t\tNRO_OGGETTO_i\tCOD_PROGETTO_s\t\t\t\tDENOM_PROGETTO_s\n\t\t\t\t\t\t\t5\t\t\t\tFORM_AUTOCARICA\tPROGETTO \tFORM AUTOCARICANTE\n\n\n\t\t\t\t\t\tvedi codice :\n\t\t\t\t\t\t\t@INSERTI@CODICI@PROGETTO@TMP   ...\n\n\n\t\t\t\t\tC)\n\t\t\t\t\t\tdopo aver inserito i codice del progetto tmp occorre creare:\n\n\t\t\t\t\t\t\tCmb.01 = MODIFICO IL NOME DELLA COMBINATA 01 IN Cmb_01_TXT\n\t\t\t\t\t\t\t\tHo cambiato la path dei comandi ....\n\n\t\t\t\t\t\t\t\t@cmbd_01.casella.combinata.evento_(APRO GRUPPO COMANDI CASELLA COMBINATA 01)\n\t\t\t\t\t\t\tTODO: fare una query che estrae i menu con il codice progetto tmp\n\n\t\t\t\t\t\t\tTODO: aggiornare il campo Cmb_01\n\t\t\t\t\t\t\t\t   CON IL MENU  del codice selezioto ...\n\n\t\t\t\t\t\t\t\t   ",
 			"file": "ANALISI/MSYS_README.MD",
 			"file_size": 6329,
@@ -2406,6 +2427,199 @@
 			]
 		},
 		{
+			"file": "ANALISI/QUERY/MSys_DF01_COMANDI_Qry01_01_SELECT_TUTTI.md",
+			"settings":
+			{
+				"buffer_size": 449,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"duplicate_line",
+					null,
+					"AQAAAFoBAAAAAAAAegEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABJAQAAAAAAAEkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					11,
+					1,
+					"paste",
+					null,
+					"AgAAAG8BAAAAAAAAewEAAAAAAAAAAAAAewEAAAAAAAB7AQAAAAAAAAgAAABDb2RDbWRfcw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABvAQAAAAAAAHcBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAIMAAAAAAAAAhAAAAAAAAAAAAAAAhAAAAAAAAACGAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACDAAAAAAAAAIMAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"contents": "MSys_DF01_COMANDI_Qry01_03_GROUP_COMANDO.MD\n\n\nSCHEMA\n\t\n\n\tSELECT MSys_DF01_COMANDI.COD_PROGETTO_s, MSys_DF01_COMANDI.GRUPPO_cmd_s, Count(MSys_DF01_COMANDI.COD_PROGETTO_s) AS TOT_c\nFROM MSys_DF01_COMANDI\nGROUP BY MSys_DF01_COMANDI.COD_PROGETTO_s, MSys_DF01_COMANDI.GRUPPO_cmd_s\nWITH OWNERACCESS OPTION;\n\n\n\ntodo:finire****???",
+			"file": "ANALISI/QUERY/MSys_DF01_COMANDI_Qry01_03_GROUP_COMANDO.MD",
+			"file_size": 43,
+			"file_write_time": 133600907590016013,
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Windows",
+				"name": "MSys_DF01_COMANDI_Qry01_03_GROUP_COMANDO.MD"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAKAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					2,
+					1,
+					"insert",
+					{
+						"characters": ".n"
+					},
+					"AgAAACgAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAAqAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAoAAAAAAAAACgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					3,
+					1,
+					"left_delete",
+					null,
+					"AQAAACkAAAAAAAAAKQAAAAAAAAABAAAAbg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAqAAAAAAAAACoAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "md"
+					},
+					"AgAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAArAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAApAAAAAAAAACkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					5,
+					2,
+					"left_delete",
+					null,
+					"AgAAACoAAAAAAAAAKgAAAAAAAAABAAAAZCkAAAAAAAAAKQAAAAAAAAABAAAAbQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAArAAAAAAAAACsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "MD"
+					},
+					"AgAAACkAAAAAAAAAKgAAAAAAAAAAAAAAKgAAAAAAAAArAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAApAAAAAAAAACkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\nSCH"
+					},
+					"BgAAACsAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAtAAAAAAAAAAAAAAAtAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADEAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAArAAAAAAAAACsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "EMA"
+					},
+					"AwAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAxAAAAAAAAADEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAADQAAAAAAAAANQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA0AAAAAAAAADQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					10,
+					1,
+					"reindent",
+					null,
+					"AQAAADUAAAAAAAAANgAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA1AAAAAAAAADUAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BQAAADYAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAADkAAAAAAAAAOgAAAAAAAAAAAAAANwAAAAAAAAA3AAAAAAAAAAEAAAAJ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA2AAAAAAAAADYAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AQAAADkAAAAAAAAALQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA5AAAAAAAAADkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"AwAAAC0BAAAAAAAALgEAAAAAAAAAAAAALgEAAAAAAAAvAQAAAAAAAAAAAAAvAQAAAAAAADABAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAtAQAAAAAAAC0BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "todo:finire"
+					},
+					"CwAAADABAAAAAAAAMQEAAAAAAAAAAAAAMQEAAAAAAAAyAQAAAAAAAAAAAAAyAQAAAAAAADMBAAAAAAAAAAAAADMBAAAAAAAANAEAAAAAAAAAAAAANAEAAAAAAAA1AQAAAAAAAAAAAAA1AQAAAAAAADYBAAAAAAAAAAAAADYBAAAAAAAANwEAAAAAAAAAAAAANwEAAAAAAAA4AQAAAAAAAAAAAAA4AQAAAAAAADkBAAAAAAAAAAAAADkBAAAAAAAAOgEAAAAAAAAAAAAAOgEAAAAAAAA7AQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAwAQAAAAAAADABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "****???"
+					},
+					"BwAAADsBAAAAAAAAPAEAAAAAAAAAAAAAPAEAAAAAAAA9AQAAAAAAAAAAAAA9AQAAAAAAAD4BAAAAAAAAAAAAAD4BAAAAAAAAPwEAAAAAAAAAAAAAPwEAAAAAAABAAQAAAAAAAAAAAABAAQAAAAAAAEEBAAAAAAAAAAAAAEEBAAAAAAAAQgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA7AQAAAAAAADsBAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
 			"contents": "\n//\t\tmysys oggetti\n//------------------------------------------------------------DA ANAGRAFE ALLE TABELLE\nc:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\MDB\\\n\nc:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\MSYS_OGGETTI\\ANALISI\\\n\n\n//\t\tSALVO I BAT DEL CONDOMINIO\n//------------------------------------------------------------BAT E PROGETTO\n\n\n\\A_______________________________________________________________________A.txt\n\\Zip_N70_ElencoFile.txt\n\\Zip_N70____________________________________________CRIPTA_DECODIFICA.txt\n\\ZZ______________________________________________________________________ZZ.txt\n\\Project_ANALISI_MSYS.sublime-project\n\\Project_ANALISI_MSYS.sublime-workspace\n\n",
 			"file": "Zip_N70_ElencoFile.txt",
 			"file_size": 740,
@@ -2544,294 +2758,6 @@
 					null,
 					"AQAAAKICAAAAAAAAogIAAAAAAAABAAAALg",
 					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAogIAAAAAAACiAgAAAAAAAAAAAAAAAAAA"
-				]
-			]
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 442,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					3,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAA4AAAAAAAAADwAAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					4,
-					1,
-					"reindent",
-					null,
-					"AQAAAA8AAAAAAAAAEAAAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAPAAAAAAAAAA8AAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					5,
-					1,
-					"paste",
-					null,
-					"AQAAABAAAAAAAAAAHgEAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					1,
-					1,
-					"insert",
-					{
-						"characters": "\n\n\n\n#"
-					},
-					"BQAAAB4BAAAAAAAAHwEAAAAAAAAAAAAAHwEAAAAAAAAgAQAAAAAAAAAAAAAgAQAAAAAAACEBAAAAAAAAAAAAACEBAAAAAAAAIgEAAAAAAAAAAAAAIgEAAAAAAAAjAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAHgEAAAAAAAAeAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					2,
-					1,
-					"insert",
-					{
-						"characters": " COMANDI"
-					},
-					"CAAAACMBAAAAAAAAJAEAAAAAAAAAAAAAJAEAAAAAAAAlAQAAAAAAAAAAAAAlAQAAAAAAACYBAAAAAAAAAAAAACYBAAAAAAAAJwEAAAAAAAAAAAAAJwEAAAAAAAAoAQAAAAAAAAAAAAAoAQAAAAAAACkBAAAAAAAAAAAAACkBAAAAAAAAKgEAAAAAAAAAAAAAKgEAAAAAAAArAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIwEAAAAAAAAjAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					3,
-					1,
-					"insert",
-					{
-						"characters": " GIT"
-					},
-					"BAAAACsBAAAAAAAALAEAAAAAAAAAAAAALAEAAAAAAAAtAQAAAAAAAAAAAAAtAQAAAAAAAC4BAAAAAAAAAAAAAC4BAAAAAAAALwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKwEAAAAAAAArAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					4,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAAC8BAAAAAAAAMAEAAAAAAAAAAAAAMAEAAAAAAAAxAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALwEAAAAAAAAvAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					5,
-					1,
-					"reindent",
-					null,
-					"AQAAADEBAAAAAAAAMgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMQEAAAAAAAAxAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"paste",
-					null,
-					"AQAAADIBAAAAAAAAaAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAMgEAAAAAAAAyAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"indent",
-					null,
-					"AwAAAD0BAAAAAAAAPgEAAAAAAAAAAAAASAEAAAAAAABJAQAAAAAAAAAAAABlAQAAAAAAAGYBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAPQEAAAAAAABoAQAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					14,
-					1,
-					"right_delete",
-					null,
-					"AgAAAGUBAAAAAAAAZQEAAAAAAAAGAAAACXBhdXNlZQEAAAAAAABmAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZQEAAAAAAABrAQAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					15,
-					1,
-					"insert",
-					{
-						"characters": "\n\n\n"
-					},
-					"CQAAAGYBAAAAAAAAZwEAAAAAAAAAAAAAZwEAAAAAAABoAQAAAAAAAAAAAABlAQAAAAAAAGUBAAAAAAAAAQAAAAlnAQAAAAAAAGgBAAAAAAAAAAAAAGgBAAAAAAAAaQEAAAAAAAAAAAAAZgEAAAAAAABmAQAAAAAAAAEAAAAJaAEAAAAAAABpAQAAAAAAAAAAAABpAQAAAAAAAGoBAAAAAAAAAAAAAGcBAAAAAAAAZwEAAAAAAAABAAAACQ",
-					"AQAAAAAAAAABAAAAZgEAAAAAAABmAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"unindent",
-					null,
-					"AQAAAGgBAAAAAAAAaAEAAAAAAAABAAAACQ",
-					"AQAAAAAAAAABAAAAaQEAAAAAAABpAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					17,
-					1,
-					"reindent",
-					null,
-					"AQAAAGgBAAAAAAAAaQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAaAEAAAAAAABoAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					1,
-					"paste",
-					null,
-					"AQAAAGkBAAAAAAAA1wEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAaQEAAAAAAABpAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"insert",
-					{
-						"characters": "\t\t"
-					},
-					"AgAAAHsBAAAAAAAAfAEAAAAAAAAAAAAAfAEAAAAAAAB9AQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAewEAAAAAAAB7AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					25,
-					2,
-					"indent",
-					null,
-					"BAAAAKQBAAAAAAAApQEAAAAAAAAAAAAAsQEAAAAAAACyAQAAAAAAAAAAAACkAQAAAAAAAKUBAAAAAAAAAAAAALIBAAAAAAAAswEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAApAEAAAAAAADZAQAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					29,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAH0BAAAAAAAAfgEAAAAAAAAAAAAAfgEAAAAAAACAAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfQEAAAAAAAB9AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					31,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAKQBAAAAAAAApQEAAAAAAAAAAAAApQEAAAAAAACnAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAApAEAAAAAAACkAQAAAAAAAP///////+9/"
-				],
-				[
-					32,
-					1,
-					"paste",
-					null,
-					"AQAAAKcBAAAAAAAA0wEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAApwEAAAAAAACnAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					35,
-					1,
-					"right_delete",
-					null,
-					"AQAAAIABAAAAAAAAgAEAAAAAAAAkAAAAaHR0cHM6Ly9naXRodWIuY29tL2ljaXZpeHdhbHRlci9DQVNB",
-					"AQAAAAAAAAABAAAApAEAAAAAAACAAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					38,
-					1,
-					"right_delete",
-					null,
-					"AQAAALQBAAAAAAAAtAEAAAAAAAA3AAAALy9MSU5HVUFHR0kKCQlodHRwczovL2dpdGh1Yi5jb20vaWNpdml4d2FsdGVyL0xJTkdVQUdHSQ",
-					"AQAAAAAAAAABAAAAtAEAAAAAAADrAQAAAAAAAAAAAAAAgFBA"
-				],
-				[
-					41,
-					1,
-					"right_delete",
-					null,
-					"AQAAAH0BAAAAAAAAfQEAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAfQEAAAAAAAB+AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					44,
-					1,
-					"insert",
-					{
-						"characters": "\nMA"
-					},
-					"BAAAAK4BAAAAAAAArwEAAAAAAAAAAAAArwEAAAAAAACxAQAAAAAAAAAAAACxAQAAAAAAALIBAAAAAAAAAAAAALIBAAAAAAAAswEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArgEAAAAAAACuAQAAAAAAAP///////+9/"
-				],
-				[
-					45,
-					2,
-					"left_delete",
-					null,
-					"AgAAALIBAAAAAAAAsgEAAAAAAAABAAAAQbEBAAAAAAAAsQEAAAAAAAABAAAATQ",
-					"AQAAAAAAAAABAAAAswEAAAAAAACzAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					46,
-					1,
-					"insert",
-					{
-						"characters": "main"
-					},
-					"BAAAALEBAAAAAAAAsgEAAAAAAAAAAAAAsgEAAAAAAACzAQAAAAAAAAAAAACzAQAAAAAAALQBAAAAAAAAAAAAALQBAAAAAAAAtQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsQEAAAAAAACxAQAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 10,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					2,
-					1,
-					"paste",
-					null,
-					"AgAAAAAAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAAKAAAAAAAAAA8AAABBQ0NFU1NfVFVUT1JJQUw",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAPAAAAAAAAAP///////+9/"
-				],
-				[
-					3,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAAoAAAAAAAAACwAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					5,
-					1,
-					"right_delete",
-					null,
-					"AQAAAAsAAAAAAAAACwAAAAAAAAAuAAAACkFDQ0VTU19WQkFfMjAwMApBQ0NFU1NfVkJBXzIwMDcKQUFfU0FMVkFUQUdHSQ",
-					"AQAAAAAAAAABAAAACwAAAAAAAAA5AAAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					6,
-					1,
-					"left_delete",
-					null,
-					"AQAAAAoAAAAAAAAACgAAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -2986,7 +2912,9 @@
 	},
 	"expanded_folders":
 	[
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MSYS_OGGETTI"
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MSYS_OGGETTI",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MSYS_OGGETTI/ANALISI",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MSYS_OGGETTI/ANALISI/QUERY"
 	],
 	"file_history":
 	[
@@ -3171,6 +3099,77 @@
 			[
 				{
 					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3592,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										620,
+										635
+									],
+									[
+										1063,
+										1078
+									],
+									[
+										1181,
+										1196
+									],
+									[
+										1868,
+										1894
+									],
+									[
+										2351,
+										2377
+									],
+									[
+										2872,
+										2925
+									],
+									[
+										3429,
+										3482
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								3474,
+								3474
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 4,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 882.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "ANALISI/MSYS_README.MD",
 					"semi_transient": false,
 					"settings":
@@ -3182,8 +3181,8 @@
 						"selection":
 						[
 							[
-								6085,
-								6085
+								4995,
+								4957
 							]
 						],
 						"settings":
@@ -3193,15 +3192,79 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3025.6,
+						"translation.y": 2703.2,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "ANALISI/QUERY/MSys_DF01_COMANDI_Qry01_01_SELECT_TUTTI.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ANALISI/QUERY/MSys_DF01_COMANDI_Qry01_03_GROUP_COMANDO.MD",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"auto_name": "MSys_DF01_COMANDI_Qry01_03_GROUP_COMANDO.MD",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "Zip_N70_ElencoFile.txt",
 					"semi_transient": false,
 					"settings":
@@ -3225,68 +3288,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "README.md",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 442,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								437,
-								437
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10,
-								10
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"stack_multiselect": false,
 					"type": "text"
 				}

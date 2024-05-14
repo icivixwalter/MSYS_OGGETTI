@@ -10,10 +10,10 @@ c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\MSYS_OGGETTI\ANALISI
 //------------------------------------------------------------BAT E PROGETTO
 
 
-\A_______________________________________________________________________A.txt
-\Zip_N70_ElencoFile.txt
-\Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
-\ZZ______________________________________________________________________ZZ.txt
-\Project_ANALISI_MSYS.sublime-project
-\Project_ANALISI_MSYS.sublime-workspace
+.\A_______________________________________________________________________A.txt
+.\Zip_N70_ElencoFile.txt
+.\Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
+.\ZZ______________________________________________________________________ZZ.txt
+.\Project_ANALISI_MSYS.sublime-project
+.\Project_ANALISI_MSYS.sublime-workspace
 
